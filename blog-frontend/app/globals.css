@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos para el resaltado de código con highlight.js */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+  background: #f3f4f6; /* gray-100 */
+  color: #374151; /* gray-700 */
+  border-radius: 8px;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #6b7280; /* gray-500 */
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #1d4ed8; /* blue-700 */
+  font-weight: bold;
+}
